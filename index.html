@@ -2,9 +2,12 @@
 <html>
     <head>
         <title>Core Libraries</title>
+        <!-- all library files must be loaded before game files and loaded up here -->
+        <script src="lib/core-main.js"></script>
     </head>
 
-    <body>
-        
+    <body onload="runGame()">
+        <!-- all game files must be made on top of the libraries and called down here -->
+        <script src="game.js"></script>
     </body>
 </html>
