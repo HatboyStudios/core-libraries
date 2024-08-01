@@ -1,9 +1,13 @@
 function init() {
+    if(debug === true) {
+        console.log("init is active");
+    }
     generateCanvas(400,400);
-    console.log("init function active");
     background("green");
 }
 
 function loop() {
-    console.log("loop function active");
+    if(debug === true) {
+        console.log("loop function active");
+    }
 }
