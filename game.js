@@ -16,4 +16,8 @@ function loop() {
     }
 
     player.drawObject();
+
+    if(playKey("w")) {
+        console.log("w is pressed");
+    }
 }
