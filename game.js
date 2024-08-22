@@ -10,4 +10,8 @@ function loop() {
     if(debug === true) {
         console.log("loop function active");
     }
+
+    if(playKey("w")) {
+        console.log("w is pressed");
+    }
 }
